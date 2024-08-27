@@ -30,7 +30,7 @@ public class LineChart extends JFrame {
         JFreeChart chart = ChartFactory.createXYLineChart(
                 "Gráfico Cortes de barras",
                 "Barras",
-                "Tempo em Nanossegundos",
+                "Tempo em Nanossegundos / 2000",
                 dataset,
                 PlotOrientation.VERTICAL,
                 true,
